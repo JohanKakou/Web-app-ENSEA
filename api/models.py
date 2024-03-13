@@ -18,5 +18,6 @@ class etudiant(models.Model):
     sexe = models.CharField(max_length=1,choices=SEXES)
     nationalite = models.CharField(max_length=30)
     numero_telephone = models.CharField(max_length=15)
-    numero_prive = models.BooleanField(max_length=30)
+    afficher_numero = models.BooleanField(max_length=30)
     anniversaire = models.DateField(max_length=30)
+    #
